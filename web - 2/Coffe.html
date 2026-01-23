@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>Coffee TEK</title>
+</head>
+
+<body style="background: linear-gradient(180deg,#643a00,#feffbd);">
+
+
+<!-- ===== Navbar ===== -->
+<nav class="navbar navbar-expand-lg navbar-dark shadow"
+     style="background: linear-gradient(90deg,#ff4b2b,#ff416c);">
+  <a class="navbar-brand font-weight-bold" href="#">
+    ☕ Coffee TEK
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="nav">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">หน้าหลัก</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://starbucks.co.th/menu/beverage/highlight-beverages/">ชาและกาแฟ</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="https://starbucks.co.th/menu/food/highlight-food/">ขนมทานเล่น</a>
+      </li>
+    </ul>
+    <form class="form-inline">
+      <input class="form-control mr-2" placeholder="Search">
+      <button class="btn btn-light">Search</button>
+    </form>
+  </div>
+</nav>
+
+<!-- ===== Slider ===== -->
+<div class="container mt-4">
+  <div class="p-4 rounded shadow"
+       style="background: linear-gradient(135deg,#4e3428,#fa8d89);">
+
+    <div id="slide" class="carousel slide" data-ride="carousel">
+
+      <!-- indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#slide" data-slide-to="0" class="active"></li>
+        <li data-target="#slide" data-slide-to="1"></li>
+        <li data-target="#slide" data-slide-to="2"></li>
+      </ol>
+
+      <!-- images -->
+      <div class="carousel-inner text-center">
+        <div class="carousel-item active">
+          <img class="d-block mx-auto w-50 rounded shadow"
+               src="https://starbucks.co.th/stb-media/2025/12/Winter26_Vienna-Creamy-Latte-600x600.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto w-50 rounded shadow"
+               src="https://starbucks.co.th/stb-media/2025/12/Winter26_Creamy-Pure-Match-Latte-600x600.jpg">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto w-50 rounded shadow"
+               src="https://starbucks.co.th/stb-media/2025/12/Winter26_Strawberry-Yuzu-KomFRUcha-600x600.jpg">
+        </div>
+      </div>
+
+      <!-- controls -->
+      <a class="carousel-control-prev" href="#slide" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slide" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+
+    </div>
+  </div>
+</div>
+
+<!-- ===== Header ===== -->
+<div class="container mt-5">
+  <div class="alert alert-danger text-center font-weight-bold shadow">
+    🔥 สินค้ายอดฮิต 4 เมนู 🔥
+  </div>
+</div>
+
+<!-- ===== Products ===== -->
+<div class="container">
+  <div class="row">
+
+    <!-- Card -->
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img class="card-img-top" src="https://starbucks.co.th/stb-media/2025/12/Winter26_Nitro-Strawberry-Yuzu-KomFRUcha-NSS-600x600.jpg">
+        <div class="card-body">
+          <h6 class="font-weight-bold">Nitro Strawberry Yuzu</h6>
+          <span class="badge badge-danger">149 ฿</span>
+          <small class="text-muted ml-2"><del>189 ฿</del></small>
+          <p class="mt-2 small text-muted">
+            Green tea kombucha with strawberry & yuzu
+          </p>
+          <a class="btn btn-outline-danger btn-block">รายละเอียดสินค้า</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img class="card-img-top" src="https://starbucks.co.th/stb-media/2025/12/Winter26_Creamy-Pure-Matcha-Cream-Frappuccino-600x600.jpg">
+        <div class="card-body">
+          <h6 class="font-weight-bold">Matcha Frappuccino</h6>
+          <span class="badge badge-success">139 ฿</span>
+          <small class="text-muted ml-2"><del>179 ฿</del></small>
+          <p class="mt-2 small text-muted">Pure matcha & mascarpone</p>
+          <a class="btn btn-outline-success btn-block">รายละเอียดสินค้า</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img class="card-img-top" src="https://starbucks.co.th/stb-media/2025/12/Winter26_Red-Bean-Mocha-Bun-600x600.jpg">
+        <div class="card-body">
+          <h6 class="font-weight-bold">Red Bean Mocha Bun</h6>
+          <span class="badge badge-warning">125 ฿</span>
+          <small class="text-muted ml-2"><del>159 ฿</del></small>
+          <p class="mt-2 small text-muted">Soft bun with red bean</p>
+          <a class="btn btn-outline-warning btn-block">รายละเอียดสินค้า</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm">
+        <img class="card-img-top" src="https://starbucks.co.th/stb-media/2025/12/Winter26_Wild-berries-Donut-600x600.jpg">
+        <div class="card-body">
+          <h6 class="font-weight-bold">Wild Berries Donut</h6>
+          <span class="badge badge-info">69 ฿</span>
+          <small class="text-muted ml-2"><del>80 ฿</del></small>
+          <p class="mt-2 small text-muted">Sweet & sour berries</p>
+          <a class="btn btn-outline-info btn-block">รายละเอียดสินค้า</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
